@@ -1,7 +1,7 @@
 # [Insert Name of Your Flow Example]
 
 > **Author:** [@YourGitHubHandle](https://github.com/YourGitHubHandle)
-> **Category:** [e.g., Salesforce Integration, Data Transformation, Webhook, etc.]
+> **Institution Name (Optional):** Flow University
 
 A brief, 1-2 sentence description of what this Flow bundle does and the primary problem it solves. 
 
