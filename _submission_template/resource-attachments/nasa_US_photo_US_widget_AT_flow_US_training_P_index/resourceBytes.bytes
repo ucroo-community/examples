@@ -1,0 +1,58 @@
+
+<html>
+  <head>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sprintf/1.1.2/sprintf.min.js"></script>
+    <script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="/static/lodash.js"></script>
+    <script type="text/javascript" src="/static/js/helpers/campusWidget.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet" />
+    <link href="https://[INSTANCE_URL]/styles/main.css" rel="stylesheet" />
+    <link id="styles" rel="stylesheet" href="https://[INSTANCE_URL]/api/v2/branding/config/active/stylesheet/" />
+    <script>
+      $(function() {
+        $.ajax({
+          method: "GET",
+          url: "/upstream/nasa_photo_widget",
+          success: function(space) {
+            console.log("data?", space)
+
+            if (space.username) {
+                $("#username").text(space.username);
+            }
+
+            let title = document.createElement("h1")
+            let spaceTitle = document.createTextNode(space.title)
+            title.classList.add("h3")
+            title.appendChild(spaceTitle)
+            
+            let tag = document.createElement("p");
+            tag.classList.add("text-sm", "text-quiet")
+            let text = document.createTextNode(space.explanation);
+            tag.appendChild(text);
+            
+            let img = document.createElement("img")
+            img.classList.add("w-100")
+            img.src = space.url
+            
+            let element = document.getElementById("container");
+            element.appendChild(title)
+            element.appendChild(tag)
+            element.appendChild(img)
+          },
+          error: function(error) {
+            console.log("I didn't work", error)
+          }
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <div id="mainContainer" class="bg-white pa-16">
+      <div id="user">
+        <p id="username"></p>
+      </div>
+      <div id="container">
+      </div>
+    </div>
+  </body>
+</html>
