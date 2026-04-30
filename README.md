@@ -32,12 +32,13 @@ This repo includes essential tools for interacting with Flow locally, specifical
 We encourage all Flow users to contribute! To add your own example to the repository, please follow these steps:
 
 1. **Fork & Branch:** Fork this repository and create a new branch for your example (e.g., `feature/custom-integration`).
-2. **Organize your Code:** Please try to place it in the most relevant category directory (e.g., `/integrations`, etc.) if one exists. Create a new directory if one does not exist that fits your example. Within that category, create a directory for your specific example. Give it a concise but descriptive name. Include your institution name if desired.
-3. **Add a Local README:** Inside your new folder, include a brief `README.md` explaining:
+2. **Reference Submission Template:** Reference or copy the _submission_template directory to generate your own example.
+3. **Organize your Code:** Please try to place it in the most relevant category directory (e.g., `/integrations`, etc.) if one exists. Create a new directory if one does not exist that fits your example. Within that category, create a directory for your specific example. Give it a concise but descriptive name. Include your institution name if desired.
+4. **Add a Local README:** Inside your new folder, include a brief `README.md` explaining:
    - What the example does.
    - The use case it solves.
    - Any specific dependencies or setup instructions.
-4. **Submit a Pull Request (PR):** Push your branch and open a PR against our `main` branch. Please fill out the PR template so our moderators have all the context they need.
+5. **Submit a Pull Request (PR):** Push your branch and open a PR against our `main` branch. Please fill out the PR template so our moderators have all the context they need.
 
 ---
 
