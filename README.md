@@ -18,7 +18,7 @@ Before committing your code:
 ## 🛠 Prerequisites: Developer Scripts
 If you are working with Flow bundles, make sure you have our standard CLI tools installed. You can find the scripts to manage your bundles in our official developer repository:
 
-👉 **[\[Link to Pathify developer scripts repo\\](https://github.com/ucroo/ihub-developer-scripts)](https://github.com/ucroo/ihub-developer-scripts)**
+👉 [Link to Pathify developer scripts repo](https://github.com/ucroo/ihub-developer-scripts)
 This repo includes essential tools for interacting with Flow locally, specifically:
 - `uploadBundle.sh` - Pushes your local bundle to your Pathify environment.
 - `downloadBundle.sh` - Pulls an existing bundle down to your local machine for editing and/or version control.
@@ -35,7 +35,7 @@ We encourage all Flow users to contribute! To add your own example to the reposi
    - What the example does.
    - The use case it solves.
    - Any specific dependencies or setup instructions.
-5. **Submit a Pull Request (PR):** Push your branch and open a PR against our `main` branch. Please fill out the PR template so our moderators have all the context they need. Please assign [pathify-jgeigley ](https://github.com/pathify-jgeigley) as the reviewer for your PR.
+5. **Submit a Pull Request (PR):** Push your branch and open a PR against our `main` branch. Please fill out the PR template so our moderators have all the context they need. Please assign [pathify-jgeigley](https://github.com/pathify-jgeigley) as the reviewer for your PR.
 
 ---
 
