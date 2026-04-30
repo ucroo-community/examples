@@ -38,7 +38,7 @@ We encourage all Flow users to contribute! To add your own example to the reposi
    - What the example does.
    - The use case it solves.
    - Any specific dependencies or setup instructions.
-5. **Submit a Pull Request (PR):** Push your branch and open a PR against our `main` branch. Please fill out the PR template so our moderators have all the context they need.
+5. **Submit a Pull Request (PR):** Push your branch and open a PR against our `main` branch. Please fill out the PR template so our moderators have all the context they need. Please assign [pathify-jgeigley ](https://github.com/pathify-jgeigley) as the reviewer for your PR.
 
 ---
 
