@@ -19,7 +19,7 @@ Before committing your code:
 ## 🛠 Prerequisites: Developer Scripts
 If you are working with Flow bundles, make sure you have our standard CLI tools installed. You can find the scripts to manage your bundles in our official developer repository:
 
-👉 **[\[Link to pathify/developer-scripts repo\]](https://github.com/ucroo/ihub-developer-scripts)**
+👉 **[\Link to Pathify developer scripts repo\](https://github.com/ucroo/ihub-developer-scripts)**
 
 This repo includes essential tools for interacting with Flow locally, specifically:
 - `uploadBundle.sh` - Pushes your local bundle to your Pathify environment.
