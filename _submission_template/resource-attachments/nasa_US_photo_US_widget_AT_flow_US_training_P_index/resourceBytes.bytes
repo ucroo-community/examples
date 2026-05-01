@@ -6,8 +6,8 @@
     <script type="text/javascript" src="/static/lodash.js"></script>
     <script type="text/javascript" src="/static/js/helpers/campusWidget.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet" />
-    <link href="https://[INSTANCE_URL]/styles/main.css" rel="stylesheet" />
-    <link id="styles" rel="stylesheet" href="https://[INSTANCE_URL]/api/v2/branding/config/active/stylesheet/" />
+    <link href="https://<INSTANCE_URL>/styles/main.css" rel="stylesheet" />
+    <link id="styles" rel="stylesheet" href="https://<INSTANCE_URL>/api/v2/branding/config/active/stylesheet/" />
     <script>
       $(function() {
         $.ajax({
